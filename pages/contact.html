@@ -2,52 +2,92 @@
 <html lang="en">
 <head>
     <title>Contact</title>
+    <script src="https://kit.fontawesome.com/968b4f76b9.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            margin: 0;
+
+        }
+        .nav-bar{
+            background-color: #FFF2F2;
+            text-align: center;
+            padding: 25px 15px;
+            /* box-shadow: 1px 1px 2px 2px gray;  #FFF2F2 */
+        }
+        .nav-item{
+            cursor: pointer;
+            text-decoration: none;
+            padding: 5px 15px;
+            margin: 5px 15px;
+            color: #7886C7;
+            font-weight: 600;
+            font-size: large;
+            
+        }
+        .nav-item:hover{
+            box-shadow: 1px 1px 2px 2px gray;
+            color: white;
+            border-radius: 5px;
+            background-color: #7886C7;
+        }
+        .on-page{
+            color: #2D336B;
+            
+        }
+        .arange-box{
+            display: inline-block;
+        }
+        .main-heading{
+            
+            color: #2D336B;
+            text-align: center;
+            font-size: 30px;
+            margin:0 50px;
+        }
+        .front-img{
+            margin: 10px 50px;
+            vertical-align: middle;
+            border-radius: 25px;
+            box-shadow:0 0 5px 10px white;
+            height: 400px;
+        }
+        .contact-icon{
+            align-items: center;
+            text-align: center;
+            color: #2D336B;
+            font-size: 30px;
+        }
+        .contact-info{
+            text-decoration: none;
+            font-size: 20px;
+            color: #2D336B;
+        }
+    </style>
 </head>
 <body>
-    <div  id="nav-bar">
+    <div class="nav-bar">
+        <a class="nav-item"  href="./../index.html">Home</a>
+        <a class="nav-item" href="about.html">About</a>
+        <a class="nav-item" href="service.html">Services</a>
+        <a class="nav-item" href="destination.html">Destination</a>
+        <a class="nav-item" href="booking.html">Booking</a>
+        <a class="nav-item on-page" href="contact.html">Contact</a> 
+    </div>
+      <!-- <div>
+        <a href="#contact-details">Contact &nbsp;Details</a>
+        <a href="#social-links">Social Links</a>
         <hr>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="./../index.html">Home</a>&nbsp;&nbsp;
-        <a href="about.html">About</a>&nbsp;&nbsp;
-        <a href="service.html">Services</a>&nbsp;&nbsp;
-        <a href="destination.html">Destination</a>&nbsp;&nbsp;
-        <a href="booking.html">Booking</a>&nbsp;&nbsp;
-        <a href="contact.html">Contact</a>&nbsp;&nbsp;
-         <hr>
-      </div>
-      <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#contact-details">Contact &nbsp;Details</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#social-links">Social &nbsp;Links</a>&nbsp;&nbsp;
-        <hr>
-      </div>
-    <h2>
-        Have questions? Reach out to us—we're just a call or message away!
-    </h2>
-    <img src="./../img/picture/main-contact.jpg" height="480px" alt="contact-img">
-    <div>
+      </div> -->
+    <div class="arange-box">
+        <h2 class="main-heading">
+            Have questions? <br> Reach out to us—we're just a call or message away!
+        </h2>
+        <br>
+        <i class="fa-solid fa-phone contact-icon"></i>
+        <a href="tel:7058951050" class="contact-info">7058951050</a>
+    </div>
+    <img class="front-img" src="./../img/picture/main-contact.jpg"  alt="contact-img">
+    <!-- <div>
         <p>
             <b>We are always happy to hear from our customers!</b> 
             If you have any <i>questions</i>, <b>feedback</b>, or just want to <i>say hello</i>, don’t hesitate to get in touch with us.  
@@ -57,7 +97,7 @@
         </p>
         
         <hr>
-    </div>
+    </div> -->
     
     <div>
         <h2 id="contact-details">Contact Details</h2>
