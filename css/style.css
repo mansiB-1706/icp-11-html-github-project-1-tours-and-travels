@@ -1,8 +1,10 @@
 body{
     margin: 0;
-
+    background-color: #D1F8EF;
 }
 .nav-bar{
+    position: sticky;
+    top: 5px;
     background-color: #FFF2F2;
     text-align: center;
     padding: 25px 15px;
