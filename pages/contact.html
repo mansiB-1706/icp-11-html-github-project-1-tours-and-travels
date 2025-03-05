@@ -3,66 +3,8 @@
 <head>
     <title>Contact</title>
     <script src="https://kit.fontawesome.com/968b4f76b9.js" crossorigin="anonymous"></script>
-    <style>
-        body{
-            margin: 0;
-
-        }
-        .nav-bar{
-            background-color: #FFF2F2;
-            text-align: center;
-            padding: 25px 15px;
-            /* box-shadow: 1px 1px 2px 2px gray;  #FFF2F2 */
-        }
-        .nav-item{
-            cursor: pointer;
-            text-decoration: none;
-            padding: 5px 15px;
-            margin: 5px 15px;
-            color: #7886C7;
-            font-weight: 600;
-            font-size: large;
-            
-        }
-        .nav-item:hover{
-            box-shadow: 1px 1px 2px 2px gray;
-            color: white;
-            border-radius: 5px;
-            background-color: #7886C7;
-        }
-        .on-page{
-            color: #2D336B;
-            
-        }
-        .arange-box{
-            display: inline-block;
-        }
-        .main-heading{
-            
-            color: #2D336B;
-            text-align: center;
-            font-size: 30px;
-            margin:0 50px;
-        }
-        .front-img{
-            margin: 10px 50px;
-            vertical-align: middle;
-            border-radius: 25px;
-            box-shadow:0 0 5px 10px white;
-            height: 400px;
-        }
-        .contact-icon{
-            align-items: center;
-            text-align: center;
-            color: #2D336B;
-            font-size: 30px;
-        }
-        .contact-info{
-            text-decoration: none;
-            font-size: 20px;
-            color: #2D336B;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
 </head>
 <body>
     <div class="nav-bar">
@@ -78,15 +20,25 @@
         <a href="#social-links">Social Links</a>
         <hr>
       </div> -->
-    <div class="arange-box">
+      <div class="arange-box-1">
         <h2 class="main-heading">
             Have questions? <br> Reach out to us—we're just a call or message away!
         </h2>
         <br>
         <i class="fa-solid fa-phone contact-icon"></i>
         <a href="tel:7058951050" class="contact-info">7058951050</a>
+        <br>
+        <i class="fa-solid fa-envelope contact-icon"></i>
+        <a href="mailto:tusharkhatale16@gmail.com" class="contact-info">tusharkhatale16@gmail.com</a>
+        <br>
+        <i class="fa-solid fa-location-dot contact-icon"></i>
+        <a href="https://maps.app.goo.gl/zYjWXM4jfLXvL5566" target="_blank" class="contact-info">Sinnar, Maharashtra - 422103</a>
+
     </div>
-    <img class="front-img" src="./../img/picture/main-contact.jpg"  alt="contact-img">
+    <div class="arange-box-2">
+        <img class="front-img" src="../img/picture/contact-person-img.png"  alt="contact-img">
+    </div>
+    
     <!-- <div>
         <p>
             <b>We are always happy to hear from our customers!</b> 
@@ -99,7 +51,7 @@
         <hr>
     </div> -->
     
-    <div>
+    <!-- <div>
         <h2 id="contact-details">Contact Details</h2>
         <br>
         <img src="./../img/icon/call.png" height="50px" alt="Call-icon">
@@ -128,39 +80,40 @@
         </p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.9431735501516!2d74.0003849!3d19.8000066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddbacf4c420bb5%3A0x41b619a6bb253876!2sR222%2B25M%2C%20At%2C%20post%2C%20Manegaon%2C%20Maharashtra%20422103!5e0!3m2!1sen!2sin!4v1739361868406!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <hr>
-    </div>
-    <div>
-        <h2 id="social-links">Social links</h2>
-        <a href="https://www.youtube.com/@TopTravel_YT" target="_blank">
-            <img src="./../img/icon/youtube.png" height="50px" alt="youtube-icon">
+    </div> -->
+    <div class="social-links">
+        
+        <a  href="https://www.youtube.com/@TopTravel_YT" target="_blank">
+            <i class="fa-brands fa-youtube Social-icon"></i>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://www.instagram.com/patelalishaar" target="_blank">
-            <img src="./../img/icon/social (1).png" height="50px" alt="insta-icon">
+            <i class="fa-brands fa-instagram Social-icon"></i>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://www.facebook.com/share/1YXnE5DUGt/" target="_blank">
-            <img src="./../img/icon/facebook.png" height="50px" alt="facebook">
+            <i class="fa-brands fa-facebook Social-icon"></i>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="">
-            <img src="./../img/icon/twitter.png" height="50px" alt="twitter">
+            <i class="fa-brands fa-x-twitter Social-icon"></i>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://wa.me/7058951050" target="_blank">
-            <img src="./../img/icon/whatsapp.png" height="50px" alt="whatsapp">
+            <i class="fa-brands fa-whatsapp Social-icon"></i>
         </a>
-        <hr>
+        
     </div>
-    <br>
-    <div>
+    
+    <!-- <div>
         <a href="#nav-bar">Back to Top</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="./../index.html">Back to Home</a>
         <hr>
         <br>
-    </div>
+    </div> -->
 
-    
+    <script src="https://kit.fontawesome.com/968b4f76b9.js" crossorigin="anonymous">
+    </script>
 </body>
 </html>
