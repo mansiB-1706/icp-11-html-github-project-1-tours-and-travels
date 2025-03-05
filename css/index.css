@@ -1,0 +1,70 @@
+body{
+    background-color: #D1F8EF;
+}
+.quote{
+    padding-left: 600px;
+}
+.center{
+    font-size: 25px;
+    color: #56021F;
+    padding-left: 500px;
+    padding-right: 500px;
+    border-radius: 10px;
+}
+#t1{
+    font-size: 15px;
+    color: #56021F;
+    padding-left: 90px;
+    padding-right: 90px
+}
+#a1{
+    font-size: 15px;
+    color: #56021F;
+    padding-left: 250px;
+  
+    
+}
+h3{
+    font-size: 20px;
+    color: #7D1C4A;
+}
+h3{
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 20px;
+    color: #56021F;
+}
+h1{
+    color: #660066;
+}
+hr{
+    border-color: pink;
+}
+.line{
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: bold;
+    padding-left: 500px;
+    color: black;
+}
+.img2{
+    padding-left: 100px;
+}
+.table{
+    padding-left: 60px;
+}
+.imgpd{
+    padding-left: 50px;
+}
+.welcome{
+    font-size: 40px;
+    text-align: center;
+    color: #2D336B;
+}
+.logo{
+    font-size: 25px;
+    color: #56021F;
+    padding-left: 500px;
+    padding-right: 500px;
+    border-radius: 10%;
+}
