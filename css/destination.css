@@ -1,0 +1,32 @@
+.color{
+    color: #7886C7;
+    margin-left: 50px;
+}
+.heading{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #2D336B;
+    text-align: center;
+    vertical-align: top;
+    font-size: 30px;}
+    .img-1{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+    }
+    .img-2{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .bt1{
+      background-color:#A9B5DF;
+      color: #2D336B;
+      border-radius: 20px 20px;
+      font-size: medium;
+    }
+    .bt1:hover {
+        box-shadow: 1px 1px 3px 3px gray;
+        }
+    
