@@ -1,0 +1,42 @@
+h1{
+    color: #56021F;
+}
+h2{
+    color: #578FCA;
+}
+.list{
+    color: #C62E2E;
+    font-size: 20px;
+}
+.about{
+     color: #C62E2E;;
+}
+.products-container{
+    display: flex;
+}
+.about-card{
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.card-img{
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.btn{
+    background-color: white;
+    color: hsl(323, 80%, 43%);
+    border: 2px solid #04AA6D;
+    margin-top: 40px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.about{
+    padding-left: 5px;
+}
+.back{
+    margin-top: 20px;
+    margin-left: 600px;
+}
